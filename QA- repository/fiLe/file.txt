@@ -1,0 +1,21 @@
+echo Starting process
+
+echo Please enter a folder name
+
+read user name
+
+mkdir fire
+
+echo Please enter a file name
+
+read user
+
+touch /root/M11/fire/fire.txt
+
+chmod
+ 
+fire.txt
+
+cp fire.txt fire2.txt
+
+echo process has competed

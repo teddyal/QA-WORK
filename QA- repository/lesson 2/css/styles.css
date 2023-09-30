@@ -1,0 +1,34 @@
+
+body{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-style: double;
+
+}
+
+
+h1,
+label {
+    color: blue;
+    font-size: medium;
+}
+
+#save{
+    color: green;
+    /* border-style: dotted; */
+
+}
+
+.red{
+    color: red;
+}
+
+option.green{
+    color: green;
+}
+
+.blue{
+    color: blue;
+}

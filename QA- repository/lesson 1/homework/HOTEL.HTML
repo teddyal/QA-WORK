@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>RELAX HOTEL</h1>
+    </div>
+
+    <div class="image-container"></div>
+
+    <div class="content-container">
+        <div class="column">
+            <h2>HOTEL SERVICES</h2>
+            <ul>
+                <li>Car rental services</li>
+                <li>Catering services</li>
+                <li>Concierge services</li>
+                <li>Courier services</li>
+                <li>Doctor on call</li>
+                <li>Dry cleaning</li>
+                <li>Excursions and guided tours</li>
+                <li>Flower arrangement</li>
+                <li>Ironing service</li>
+                <li>Laundry and valet service</li>
+                <li>Mail services</li>
+                <li>Room service (24-hour)</li>
+            </ul>
+        </div>
+        <div class="column">
+            <h2>OTHER SERVICES</h2>
+            <ul>
+                <li>Restaurant</li>
+                <li>Bar</li>
+                <li>Swimming pool</li>
+                <li>Fitness center</li>
+                <li>Spa</li>
+                <li>Conference facilities</li>
+                <li>Business center</li>
+                <li>Wi-Fi access</li>
+                <li>Parking</li>
+                <li>24-hour front desk</li>
+                <li>Security</li>
+                <li>Airport shuttle</li>
+            </ul>
+        </div>
+        <div class="number-of-guests">
+            <label for="guests">Number of Guests:</label>
+            <select id="guests" name="guests">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+        </div>
+        
+        <div class="options-container">
+            <div class="breakfast-options">
+                <p>Breakfast Options:</p>
+                <label for="withBreakfast">
+                    <input type="radio" id="withBreakfast" name="breakfast" value="withBreakfast">
+                    With Breakfast
+                </label>
+                <label for="noBreakfast">
+                    <input type="radio" id="noBreakfast" name="breakfast" value="noBreakfast">
+                    No Breakfast
+                </label>
+            </div>
+        
+            <div class="additional-services">
+                <p>Additional Services:</p>
+                <label for="guidedTour">
+                    <input type="checkbox" id="guidedTour" name="services" value="guidedTour">
+                    Guided Tour
+                </label>
+                <label for="horseRiding">
+                    <input type="checkbox" id="horseRiding" name="services" value="horseRiding">
+                    Horse Riding
+                </label>
+                <label for="concertTickets">
+                    <input type="checkbox" id="concertTickets" name="services" value="concertTickets">
+                    Concert Tickets
+                </label>
+            </div>
+        
+            <div class="booking-buttons">
+                <button type="submit">Book a Room

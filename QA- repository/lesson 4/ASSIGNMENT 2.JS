@@ -10,7 +10,7 @@ function getDetails(appartment_object){
 const appartment1 = {
     city: "New York",
     street: "Brooklin",
-    avenu: "32TH",
+    avenu: "48TH",
 rental_cost: "5900$",
     rooms:["master bedroom", "kids room", "washroom", "kitchen"],
     // getDetails: function(){

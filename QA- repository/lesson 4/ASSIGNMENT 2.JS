@@ -11,7 +11,7 @@ const appartment1 = {
     city: "New York",
     street: "Brooklin",
     avenu: "29TH",
-rental_cost: "5800$",
+rental_cost: "5900$",
     rooms:["master bedroom", "kids room", "washroom", "kitchen"],
     // getDetails: function(){
     //     let result = "The appatrment on " + this.Street + "," + this.city + " cost " + this.Rental_cost + "_dollars and has" + this.Rooms.length + " rooms in total"

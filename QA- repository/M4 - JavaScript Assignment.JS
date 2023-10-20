@@ -34,4 +34,3 @@ function compareEmployees(employee1, employee2) {
 
 // Compare employees
 compareEmployees(employee1, employee2);
-

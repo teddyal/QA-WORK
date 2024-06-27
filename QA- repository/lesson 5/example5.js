@@ -25,6 +25,6 @@ if(fruits[x]=="avocado"){
     console.log("I did not know that avocado is a fruit!!!");
 }
 }
-
+//end check sync 27June
 
 
